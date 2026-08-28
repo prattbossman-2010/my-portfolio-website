@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Pratt Nsiah Bossman — AI & Game Dev student showcasing full-stack, AI, and game development projects">
+    <meta name="theme-color" content="#7c3aed">
+    <meta property="og:title" content="Pratt Nsiah Bossman | AI & Game Dev Engineer">
+    <meta property="og:description" content="Portfolio showcasing full-stack, AI, and game development projects — from a Robotics Engineering student in Ghana.">
+    <meta property="og:type" content="website">
+    <!-- TODO: update this URL after deploying to GitHub Pages -->
+    <meta property="og:url" content="https://prattbossman-2010.github.io/portfolio">
+    <meta property="og:image" content="images/cloudtok/cloudtok2.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pratt Nsiah Bossman | AI & Game Dev Engineer">
+    <meta name="twitter:description" content="Portfolio showcasing full-stack, AI, and game development projects — from a Robotics Engineering student in Ghana.">
+    <title>Pratt Nsiah Bossman | Projects Showcase</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ============ SCROLL PROGRESS ============ -->
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Go to homepage">
+                <svg class="logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                    <defs><linearGradient id="navGrad" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#06b6d4"/></linearGradient></defs>
+                    <rect width="32" height="32" rx="8" fill="url(#navGrad)"/>
+                    <path d="M8 12h16M8 16h12M8 20h8" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">AI &amp; Game Dev Engineer</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="#projects" class="nav-link active" role="menuitem">Projects</a></li>
+                <li role="none"><a href="about.html" class="nav-link" role="menuitem">About</a></li>
+                <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+                <li role="none">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" role="menuitem">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============ HERO ============ -->
+    <header class="hero" role="banner">
+        <div class="aurora" aria-hidden="true">
+            <span class="aurora-blob aurora-1"></span>
+            <span class="aurora-blob aurora-2"></span>
+            <span class="aurora-blob aurora-3"></span>
+        </div>
+        <div class="hero-spotlight" id="hero-spotlight" aria-hidden="true"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting" aria-hidden="true">Hey, I'm <span class="highlight">Pratt Nsiah Bossman</span></p>
+                <h1 class="hero-title" data-text="AI &amp; Game Dev Engineer &amp; Student" aria-label="AI & Game Dev Engineer & Student"><span class="hero-typed" aria-hidden="true"></span></h1>
+                <p class="hero-description">
+                    I'm a Senior high school student (3rd year) studying Robotics Engineering at AWASO STEM High School.
+                    I specialize in AI-driven development, leveraging machine learning for accuracy, efficiency,
+                    debugging, analysis, and research. My expertise spans HTML, CSS, Python, and C++,
+                    with hands-on experience in Tkinter, Arduino, SDL, and OpenGL for 3D graphics.
+                    I'm currently developing advanced projects like CloudTok (a fullstack social platform
+                    inspired by TikTok) and MotionForge (a 3D motion capture and animation tool),
+                    aiming to create innovative AI-powered gaming experiences.
+                </p>
+                <div class="hero-stats" role="list" aria-label="Statistics">
+                    <div class="stat" role="listitem">
+                        <span class="stat-number" data-count="0">0</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-number" data-count="0">0</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                    <div class="stat" role="listitem">
+                        <span class="stat-number" data-count="0">0</span>
+                        <span class="stat-label">Years Coding</span>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary magnetic-btn">View Projects</a>
+                    <a href="contact.html" class="btn btn-secondary magnetic-btn">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual" aria-hidden="true">
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="code-filename">developer.py</span>
+                    </div>
+                    <pre class="code-content"><code><span class="kw">class</span> <span class="prop">Developer</span>:
+  <span class="prop">name</span> = <span class="str">"Pratt Nsiah Bossman"</span>
+  <span class="prop">role</span> = <span class="str">"AI &amp; Game Dev Student"</span>
+  <span class="prop">school</span> = <span class="str">"AWASO STEM SHS"</span>
+  <span class="prop">languages</span> = [<span class="str">"HTML"</span>, <span class="str">"CSS"</span>, <span class="str">"Python"</span>, <span class="str">"C++"</span>]
+  <span class="prop">tools</span> = [<span class="str">"Tkinter"</span>, <span class="str">"Arduino"</span>, <span class="str">"SDL"</span>, <span class="str">"OpenGL"</span>]
+  <span class="prop">learning</span> = <span class="str">"Advanced Python, AI &amp; 3D Games"</span></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </div>
+    </header>
+
+    <!-- ============ TECH MARQUEE ============ -->
+    <div class="marquee-section" aria-label="Technologies I use">
+        <div class="marquee" aria-hidden="false">
+            <div class="marquee-track" id="marquee-track"></div>
+        </div>
+    </div>
+
+    <main>
+        <!-- ============ PROJECTS ============ -->
+        <section id="projects" class="projects-section" aria-labelledby="projects-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="projects-heading" class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">A showcase of projects I've built, contributed to, or experimented with</p>
+                </header>
+
+                <div class="filter-bar" role="group" aria-label="Filter projects by technology">
+                    <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-btn" data-filter="fullstack" aria-pressed="false">Full-Stack</button>
+                    <button class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+                    <button class="filter-btn" data-filter="ai" aria-pressed="false">AI</button>
+                    <button class="filter-btn" data-filter="games" aria-pressed="false">Games</button>
+                    <button class="filter-btn" data-filter="tools" aria-pressed="false">Tools</button>
+                </div>
+
+                <div id="projects-grid" class="projects-grid" role="list" aria-label="Projects list">
+                    <!-- Projects will be rendered here by JavaScript -->
+                </div>
+
+                <div id="no-projects" class="no-projects hidden" aria-live="polite">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                    <h3>No projects found</h3>
+                    <p>Try selecting a different filter</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CURRENTLY BUILDING ============ -->
+        <section class="building-section" aria-labelledby="building-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="building-heading" class="section-title">Currently Building</h2>
+                    <p class="section-subtitle">Active research and development — here's what's cooking next</p>
+                </header>
+                <div class="building-grid">
+                    <article class="building-card reveal">
+                        <div class="building-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714a2.25 2.25 0 00.659 1.591L19 14.5m-4.75-11.396c.251.023.501.05.75.082M12 21a8.966 8.966 0 005.982-2.275M12 21a8.966 8.966 0 01-5.982-2.275M12 21c1.351 0 2.658-.156 3.912-.446m0 0A8.966 8.966 0 0018 15.5M5.982 17.5A8.966 8.966 0 013 13.5m13.5 2.5a8.966 8.966 0 001.517-4.725M7.52 13.5A8.966 8.966 0 016 9m12 4.5a8.966 8.966 0 01-1.517 4.725M6 9a8.966 8.966 0 00-3 .5M21 13.5c0 .925-.168 1.815-.475 2.64"/></svg>
+                        </div>
+                        <div class="building-body">
+                            <h3 class="building-title">Personal AI Assistant</h3>
+                            <p class="building-desc">Building a custom AI from scratch using advanced Python — a personal assistant with reasoning, memory, and tool use, going beyond simple prompt-response patterns.</p>
+                            <div class="building-meta">
+                                <span class="building-tech">Python</span>
+                                <span class="building-tech">AI / ML</span>
+                                <span class="building-status"><span class="status-dot"></span>In Progress</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="building-card reveal">
+                        <div class="building-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.471 48.471 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.959.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-.186.186-.676.401-.959.401v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0z"/></svg>
+                        </div>
+                        <div class="building-body">
+                            <h3 class="building-title">3D Open-World Fighting Game</h3>
+                            <p class="building-desc">A large-scale 3D game built with SDL2 and OpenGL — hand-coded game engine, physics, character systems, and an open world. The Pratt Engine is the foundation.</p>
+                            <div class="building-meta">
+                                <span class="building-tech">C++</span>
+                                <span class="building-tech">SDL2</span>
+                                <span class="building-tech">OpenGL</span>
+                                <span class="building-status"><span class="status-dot"></span>In Progress</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">&copy; 2026 Pratt Nsiah Bossman. Built with vanilla HTML, CSS &amp; JavaScript.</p>
+                <p class="footer-note">No frameworks, no build steps — just pure web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="projects.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

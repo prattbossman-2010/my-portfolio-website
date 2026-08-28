@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Pratt Nsiah Bossman — AI & Game Dev student at AWASO STEM High School">
+    <meta name="theme-color" content="#7c3aed">
+    <meta property="og:title" content="About | Pratt Nsiah Bossman">
+    <meta property="og:description" content="A Robotics Engineering student building AI-powered tools and 3D games from Ghana.">
+    <meta property="og:type" content="profile">
+    <meta name="twitter:card" content="summary">
+    <title>About | Pratt Nsiah Bossman</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ============ SCROLL PROGRESS ============ -->
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo" aria-label="Go to homepage">
+                <svg class="logo-icon" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+                    <rect width="32" height="32" rx="8" fill="currentColor"/>
+                    <path d="M8 12h16M8 16h12M8 20h8" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+                </svg>
+                <span class="logo-text">AI &amp; Game Dev Engineer</span>
+            </a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+            <ul id="nav-menu" class="nav-menu" role="menubar">
+                <li role="none"><a href="index.html#projects" class="nav-link" role="menuitem">Projects</a></li>
+                <li role="none"><a href="about.html" class="nav-link active" role="menuitem">About</a></li>
+                <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+                <li role="none">
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Switch to dark mode" role="menuitem">
+                        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <circle cx="12" cy="12" r="5"/>
+                            <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                        </svg>
+                        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- ============ ABOUT ============ -->
+        <section id="about" class="about-section page-section" aria-labelledby="about-heading">
+            <div class="container">
+                <header class="section-header">
+                    <h2 id="about-heading" class="section-title">About Me</h2>
+                    <p class="section-subtitle">A journey into AI, robotics, and game development</p>
+                </header>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I'm <strong>Pratt Nsiah Bossman</strong>, a senior high school student (3rd year) studying
+                            Robotics Engineering at <strong>AWASO STEM High School</strong>. I've been building projects
+                            since my early coding days, combining traditional development with cutting-edge technologies.
+                        </p>
+                        <p>
+                            My journey began with <strong>HTML &amp; CSS</strong>, then expanded into
+                            <strong>Python</strong> and <strong>C++</strong>. Along the way I picked up frameworks and
+                            tools like <strong>Tkinter</strong> for desktop apps, <strong>Arduino</strong> for robotics,
+                            and <strong>SDL &amp; OpenGL</strong> for graphics and game development.
+                        </p>
+                        <p>
+                            I leverage artificial intelligence in most of my projects to ensure accuracy and efficiency —
+                            using it for quick debugging, code analysis, research, and problem-solving.
+                        </p>
+                        <p>
+                            Currently, I'm learning advanced Python, SDL, and OpenGL to build an AI and a
+                            <strong>3D open-world fighting game</strong>. Recent projects include
+                            <strong>CloudTok</strong>, a social platform inspired by TikTok, and
+                            <strong>MotionForge</strong>, a 3D motion capture and animation tool.
+                        </p>
+
+                        <div class="skills-showcase">
+                            <h3>Languages</h3>
+                            <div class="skills-grid" role="list" aria-label="Programming languages">
+                                <span class="skill-tag" role="listitem">HTML</span>
+                                <span class="skill-tag" role="listitem">CSS</span>
+                                <span class="skill-tag" role="listitem">Python</span>
+                                <span class="skill-tag" role="listitem">C++</span>
+                            </div>
+                        </div>
+
+                        <div class="skills-showcase">
+                            <h3>Frameworks &amp; Tools</h3>
+                            <div class="skills-grid" role="list" aria-label="Frameworks and tools">
+                                <span class="skill-tag" role="listitem">Tkinter</span>
+                                <span class="skill-tag" role="listitem">Arduino</span>
+                                <span class="skill-tag" role="listitem">SDL</span>
+                                <span class="skill-tag" role="listitem">OpenGL</span>
+                                <span class="skill-tag" role="listitem">AI / Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-visual" aria-hidden="true">
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">The Beginning</span>
+                                    <h4>First Lines of Code</h4>
+                                    <p>Started with HTML &amp; CSS, building my first web pages</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">Next Step</span>
+                                    <h4>Python &amp; Tkinter</h4>
+                                    <p>Built desktop applications and learned programming logic</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">STEM Journey</span>
+                                    <h4>C++, Arduino &amp; Robotics</h4>
+                                    <p>Studying Robotics Engineering at AWASO STEM High School</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">Leveling Up</span>
+                                    <h4>SDL &amp; OpenGL</h4>
+                                    <p>Diving into graphics programming and game development</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-marker"></div>
+                                <div class="timeline-content">
+                                    <span class="timeline-year">Now</span>
+                                    <h4>AI-Powered Projects</h4>
+                                    <p>Building CloudTok, MotionForge, an AI, and a 3D open-world fighting game</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">&copy; 2026 Pratt Nsiah Bossman. Built with vanilla HTML, CSS &amp; JavaScript.</p>
+                <p class="footer-note">No frameworks, no build steps — just pure web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast-container" class="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="projects.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
