@@ -55,7 +55,7 @@ const projects = [
         image: null,
         links: {
             live: null,
-            github: null,
+            github: "https://github.com/prattbossman-2010/video-gen",
             docs: null
         },
         featured: true,
@@ -63,15 +63,15 @@ const projects = [
     },
     {
         id: 4,
-        title: "dYZ AI Image Generator",
+        title: "AI Image Generator",
         description: "An AI image generator web app with smart prompt engineering — it enhances your prompts, regenerates variations by swapping camera angles, environments and lighting, and keeps a gallery history.",
         longDescription: "Built around an AI image-generation API with a prompt-enhancement layer that expands short ideas into rich prompts. Its signature feature is variation-based regeneration: re-rolling an image intelligently swaps camera shots (close-up, cinematic, low angle), environments and lighting setups while keeping your core idea. Includes a history gallery to browse and revisit past generations.",
         category: "ai",
         tech: ["HTML", "CSS", "JavaScript", "AI Image API", "Prompt Engineering"],
         image: null,
         links: {
-            live: null,
-            github: null,
+            live: "https://prattbossman-2010.github.io/image-gen/",
+            github: "https://github.com/prattbossman-2010/image-gen",
             docs: null
         },
         featured: true,
@@ -86,8 +86,8 @@ const projects = [
         tech: ["HTML", "CSS", "JavaScript", "Web Audio", "Scene Management"],
         image: null,
         links: {
-            live: null,
-            github: null,
+            live: "https://prattbossman-2010.github.io/zeal-of-conquest/",
+            github: "https://github.com/prattbossman-2010/zeal-of-conquest",
             docs: null
         },
         featured: false,
@@ -118,8 +118,8 @@ const projects = [
         tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
         image: null,
         links: {
-            live: null,
-            github: null,
+            live: "https://prattbossman-2010.github.io/SwiftLine-Logistics/",
+            github: "https://github.com/prattbossman-2010/SwiftLine-Logistics",
             docs: null
         },
         featured: false,
@@ -150,8 +150,8 @@ const projects = [
         tech: ["HTML", "CSS", "JavaScript", "UI Cloning"],
         image: null,
         links: {
-            live: null,
-            github: null,
+            live: "https://prattbossman-2010.github.io/whatsapp-interface-webapp/",
+            github: "https://github.com/prattbossman-2010/whatsapp-interface-webapp",
             docs: null
         },
         featured: false,
