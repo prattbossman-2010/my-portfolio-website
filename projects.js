@@ -54,7 +54,7 @@ const projects = [
         tech: ["JavaScript", "Python", "LLM Agent", "Text-to-Speech", "Video Editing", "Automation"],
         image: null,
         links: {
-            live: null,
+            live: "https://video-gen-production-b3dd.up.railway.app/",
             github: "https://github.com/prattbossman-2010/video-gen",
             docs: null
         },
